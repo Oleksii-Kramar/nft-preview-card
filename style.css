@@ -1,0 +1,60 @@
+:root {
+    --c-soft-blue: hsl(215, 51%, 70%);
+    --c-cyan: hsl(178, 100%, 50%);
+    --c-main-BG: hsl(217, 54%, 11%);
+    --c-card-BG: hsl(216, 50%, 16%);
+    --c-line: hsl(215, 32%, 27%);
+    --c-white: hsl(0, 0%, 100%);
+  }
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    background-color: black;
+    color: var(--c-white)
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--c-main-BG);;
+}
+.wrapper {
+}
+.card {
+
+}
+.main-img {
+
+}
+.header {
+}
+.text {
+}
+.coin-price {
+    display: flex;
+}
+.icon {
+}
+.price {
+}
+.time {
+
+}
+.clock {
+}
+.days {
+}
+.autor {
+    display: flex;
+}
+.autor-name {
+}
