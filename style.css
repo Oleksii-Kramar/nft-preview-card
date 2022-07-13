@@ -21,40 +21,74 @@ body {
     color: var(--c-white)
 }
 
-.conteiner {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--c-main-BG);;
+    height: 100%;
+    width: 80%;
+    background-color: var(--c-main-BG);
+    margin: auto;
 }
-.wrapper {
-}
+
 .card {
-
-}
-.main-img {
-
-}
-.header {
-}
-.text {
-}
-.coin-price {
     display: flex;
+    flex-direction: column;
+    background-color: var(--c-card-BG);
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
 }
-.icon {
-}
-.price {
-}
-.time {
 
+.main-image {
+    border-radius: 5px;
 }
-.clock {
+
+.header {
+    margin: 20px 0 20px 0;
 }
-.days {
+
+.card p {
+    font-size: 16px;
 }
+
 .autor {
     display: flex;
+    gap: 20px;
+    margin: 10px;
+    padding: 20px;
+    border-top: 0.5px solid #ddd
 }
-.autor-name {
+.autor-foto {
+    max-width: 30px;  
+    padding: 0;
 }
+
+.price-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.coin-price {
+    display: flex;
+    gap: 10px;
+}
+
+.time {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+
+.autor p {
+    font-size: 12px;
+}
+
+
